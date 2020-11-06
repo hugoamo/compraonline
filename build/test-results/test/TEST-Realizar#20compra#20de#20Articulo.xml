@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Realizar compra de Articulo" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-07T21:19:20" hostname="PRIHUGOM" time="61.011">
+  <properties/>
+  <testcase name="Agregar dos articulos de carro de compras" classname="Realizar compra de Articulo" time="61.011"/>
+  <system-out><![CDATA[
+
+    ?[32mGiven ?[0m?[32mel ingreso a la tienda virtual?[0m        ?[90m# AgregarProductoCarritoDefinitions.el_ingreso_a_la_tienda_virtual()?[0m
+
+
+
+
+    ?[32mWhen ?[0m?[32mingreso usuario y clave?[0m                ?[90m# AgregarProductoCarritoDefinitions.ingreso_usuario_y_clave()?[0m
+
+
+
+
+    ?[32mThen ?[0m?[32macceso con usuario registrado?[0m          ?[90m# AgregarProductoCarritoDefinitions.acceso_con_usuario_registrado()?[0m
+
+
+  @driver:chrome
+  Scenario: Agregar dos articulos de carro de compras ?[90m# src/test/resources/features/agregar_producto_carrito.feature:10?[0m
+
+
+
+    ?[32mGiven ?[0m?[32mingreso a sesion women?[0m                      ?[90m# AgregarProductoCarritoDefinitions.ingreso_a_sesion_women()?[0m
+
+
+
+
+    ?[32mWhen ?[0m?[32mse selecciona dos articulos?[0m                  ?[90m# AgregarProductoCarritoDefinitions.se_selecciona_dos_articulos()?[0m
+
+
+false
+
+
+    ?[32mThen ?[0m?[32mse agregan al carrro de compras?[0m              ?[90m# AgregarProductoCarritoDefinitions.se_agregan_al_carrro_de_compras()?[0m
+]]></system-out>
+  <system-err><![CDATA[may. 07, 2019 4:19:21 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--enable-automation, --test-type], extensions: []}, platform: ANY, version: }
+Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 35239
+Only local connections are allowed.
+may. 07, 2019 4:19:25 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Agregar dos articulos de carro de compras
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
